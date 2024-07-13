@@ -67,5 +67,3 @@ function App() {
 }
 
 export default App;
-src/components/MedicamentoForm.js
-

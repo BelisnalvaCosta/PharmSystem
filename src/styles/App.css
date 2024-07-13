@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.medicamento-form {
+  margin-bottom: 20px;
+}
+
+.medicamento-form input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.medicamento-form button {
+  padding: 5px 10px;
+}
+
+.medicamento-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.medicamento {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: left;
+}
+
+.medicamento h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.medicamento p {
+  margin: 5px 0;
+}
+
+.medicamento button {
+  margin-right: 5px;
+  padding: 5px 10px;
+}
+
