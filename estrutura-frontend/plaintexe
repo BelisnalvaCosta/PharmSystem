@@ -1,0 +1,15 @@
+frontend/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.js
+│   ├── components/
+│   │   ├── Medicamento.js
+│   │   ├── MedicamentoForm.js
+│   │   └── MedicamentoList.js
+│   ├── services/
+│   │   └── api.js
+│   ├── styles/
+│   │   └── App.css
+│   └── index.js
+├── package.json

@@ -1,43 +1,123 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Landing Page Projeto Integrador I</title>
+</head>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+  
+<body>
+    <header>
+        <nav>
+            <a href="#" id="logoSaude" class="nav-item"
+            ><i class="material-icons">local_pharmacy</i><img src="img/logo1Saude.jpeg"  alt="Saiba quando chegar o remédio no Posto"></a>            
+            <ul>
+                <a class="nav-item" href="#about"><li>Sobre</li></a>
+                <a class="nav-item" href="#staffTI-container"><li>Equipe</li></a>
+                <a class="nav-item" href="#account"><li>Crie Sua Conta</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="main-aside">
+            <aside id="main1-aside">
+                <h1>Bem Vindos a nossa página!</h1><br>
+                <a href="https://www.youtube.com/watch?v=ZnF3yKRLQT0&t=2s iframe_entrevista" target="_blank">PI-Computação I<i class="material-icons">school</i></a>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+            </aside>
+        </section>
+        <section id="hero">    
+            <section id="explainer">    
+                <h2><p>
+                    A nossa equipe projetou um software para facilitar o acesso a medicamentos, melhorar a comunicação entre farmácias e clientes, 
+                    e otimizar a gestão de estoque e pedidos. A comunidade vai se beneficiar com o acesso rápido e fácil a medicamentos essenciais, 
+                    redução no tempo de espera e deslocamento, além de informações confiáveis sobre saúde e medicamentos.
+                </p>
+                    </h2><br>                                      
+                    <h3>
+                    <p>Gostaria de conhecer este novo Software?
+                        <a href="https://alunounivespbr-my.sharepoint.com/:p:/r/personal/2218733_aluno_univesp_br/Documents/PharmAssureSys%20-%20apresenta%C3%A7%C3%A3o.pptx?d=wc9a650b83aeb42b4ba6bca745934d3ad&csf=1&web=1&e=BvEKSa" 
+                        target="blank" alt="Slide Projeto"></a></p>
+                    </h3>
+                    <button id="cta-saiba-btn">
+                        <ul>
+                            <a href="#" id="acta-saiba-btn">Saiba mais!</a>                                                        
+                            <i class="material-icons">keyboard_arrow_right</i>
+                        </ul>
+                    </button>                    
+            </section>
+            <aside id="staffTI-content-img">            
+                <img src="img/GRUPO PI JUNTOS.jpeg" width="450" height="350" alt="Foto da equipe PI"/>         
+                <h3>Juntos somos mais fortes 💪💖 </h3>
+            </aside>
+        </section>          
+        </section>
+        <section id="about">
+            <img src="img/farmacia2.jpeg" width="340" height="480" alt="Saiba se o seu remédio chegou!"/>            
+            <h3><p>Para as farmácias, o software proporcionará um aumento na eficiência operacional, uma melhoria significativa no atendimento
+                ao cliente e a redução de perdas por vencimento de medicamentos. Essas melhorias contribuirão para um serviço mais eficaz e sustentável</p>
+            </h3>
+            <img src="docs/MedicineAppConsult.jpg" width="350" height="480" alt="MedicineAppConsult.jpg"/>
+        </section> 
+        <section id="staffTI-container"> 
+            <h2>Passos do desenvolvimento do Projeto de Software</h2>
+            <section id="staff">
+                <article>
+                    <img src="img/grupo de P.I.jpeg" alt="A equipe de TI discutindo os assuntos com o gerente comercial da farmácia"/>
+                    <p>
+                        A equipe da Tecnologia junto com Washington Santos, gerente comercial da farmácia em reunião para apresentar o Projeto de Software.  
+                         
+                    </p>
+                </article>
+                <article>
+                    <img src="img/EqInclusão1.jpeg" alt="A equipe de TI ouvindo a dificuldade e as necessidades do pacientes"/>
+                    <p>
+                        A equipe de Tecnologia observando a dificuldade e ouvindo as necessidades do paciente.
+                    </p>
+                </article>
+                <article>
+                    <img src="img/depoimento.jpg" alt="A intrevistada falando sobre as dificuldades na procura do medicamento"/>
+                    <p>
+                        A Sra. Aline Bueno com a Thais, dando o seu depoimento referente a falta de medicamentos e direcionamento sobre onde encontrar.
+                    </p>
+                </article>
+                <article>
+                    <img src="img/Equipe3DefinEstrat.jpg" alt="A equipe no local da pesquisa"/>
+                    <p>
+                        O grupo de TI reunido no desenvolvimento do projeto e do relatório final. 
+                    </p>
+                </article>
+            </section>
+        </section>  
+        <section id="account">
+            <article id="registration-form">
+                <h3>Registre-se e tenha mais comodidade!</h3>
+                <div class="input-wrapper">
+                <label for="complete-name">Nome completo: </label>
+                <input type="text" id="complete-name"/>
+            </div>
+            <div class="input-wrapper">
+                <label for="email">E-mail: </label>
+                <input type="email" id="email"/>
+            </div>  
+            <button id="register-button">Cadastrar</button>              
+            </article>
+            <img src="img/farmacia.jpeg" alt="Saiba se os remédios chegaram nas unidades farmacêuticas"/>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZnF3yKRLQT0?si=R_XVtfcF_Gmq1ee4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section> 
+    </section>  
+    </main>    
+    <footer>
+        Visite a nossa página e as redes sociais!
+        <a href="https://univesp.br/">univesp<i class="material-icons">school</i></a>
+        <a href="https://alunounivespbr-my.sharepoint.com/:w:/r/personal/2220731_aluno_univesp_br/_layouts/15/Doc.aspx?sourcedoc=%7B2E90E117-E3EF-4988-8830-55C43EF1FBDE%7D&file=Modelo_Relatorio_Final%20(1).docx&fromShare=true&action=default&mobileredirect=true">link do Relatório Final-PI<i class="material-icons">web</i></a>
+    </footer>
+</body>
 </html>
