@@ -1,5 +1,7 @@
 from fastapi import FastAPI, Depends, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
+import uvicorn
 from . import crud, models, schemas
 from .database import engine
 from .dependencies import get_db
@@ -7,6 +9,13 @@ from .dependencies import get_db
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_methods=["*"],
+    allow_headers=["*"],
+    allow_credentials=True,
+    allow_origins=["http://localhost:3000"]
+)
 
 @app.post("/medicamentos/", response_model=schemas.Medicamento)
 def create_medicamento(medicamento: schemas.MedicamentoCreate, db: Session = Depends(get_db)):
@@ -31,3 +40,7 @@ def delete_medicamento(medicamento_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Medicamento not found")
     crud.delete_medicamento(db=db, medicamento_id=medicamento_id)
     return {"detail": "Medicamento deleted"}
+
+if __name__ == '__main__':
+    uvicorn.run(app, host='127.0.0.1', port=8000)
+    
