@@ -20,17 +20,18 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Back-end
+## Back-end e Front-end
 
-## LINGUAGEM:
+## LINGUAGEM e Bibliotecas:
 
 ![HTML](https://img.shields.io/badge/HTML-000?style=for-the-badge&logo=html5&logoColor=30A3DC)
 ![CSS](https://img.shields.io/badge/CSS-000?style=for-the-badge&logo=css3&logoColor=E94D5F)
 ![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=30A3DC)
-
+Python
 FastApi
 SQLAlchemy
 MySQL
+ReactJS
 
   <table>
   <tr>
