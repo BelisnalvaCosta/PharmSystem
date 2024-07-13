@@ -1,6 +1,6 @@
 # PharmSystem [^1].
 
-Este projeto foi feito na IDE Visual Studio Code, com o objetivo criar um sitema de gerenciamento de medicamentos... (em fase de criação ainda...)
+Este projeto foi feito na IDE Visual Studio Code, com o objetivo de criar um sistema de gerenciamento de medicamentos... Projeto Integrador Univesp (em fase de criação ainda...)
 
 
 # Tecnologia  utilizada
