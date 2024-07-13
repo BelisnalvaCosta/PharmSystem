@@ -1,0 +1,21 @@
+medicamento_app/
+├── backend/
+│   ├── main.py
+│   ├── database.py
+│   ├── models.py
+│   ├── crud.py
+│   ├── schemas.py
+│   └── dependencies.py
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── components/
+│   │   │   └── Medicamento.js
+│   │   └── services/
+│   │       └── api.js
+│   └── package.json
+├── alembic/
+├── alembic.ini
+└── requirements.txt
