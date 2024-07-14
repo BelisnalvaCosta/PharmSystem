@@ -9,12 +9,14 @@ from .dependencies import get_db
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
+
+# Configuração CORS para permitir conexões do frontend React
 app.add_middleware(
     CORSMiddleware,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_origins=["http://localhost:3000"],
     allow_credentials=True,
-    allow_origins=["http://localhost:3000"]
+    allow_methods=["*"],
+    allow_headers=["*"],   
 )
 
 @app.post("/medicamentos/", response_model=schemas.Medicamento)
@@ -40,7 +42,4 @@ def delete_medicamento(medicamento_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Medicamento not found")
     crud.delete_medicamento(db=db, medicamento_id=medicamento_id)
     return {"detail": "Medicamento deleted"}
-
-if __name__ == '__main__':
-    uvicorn.run(app, host='127.0.0.1', port=8000)
     
