@@ -1,4 +1,4 @@
-# PharmSystem
+# [medicamento_app](https://belisnalvacosta.github.io/PharmSystem/)
 
 Cadastro de medicamentos e de Clientes e feitos na IDE Visual Studio Code e Pycharm, linguagem Python [^1].
 
@@ -14,8 +14,8 @@ GRUPO do Projeto Integrador - Computação I: Belisnalva, Elton, Gian, José, Si
 
 ## _*Como executar o projeto*_
 
-Pré-requisitos: Python 3.12.3
-Reactjs
+. Pré-requisitos: Python 3.12.3
+. Reactjs
 
 ## Importar biblioteca e framework - Back-end
 
@@ -23,6 +23,6 @@ Reactjs
 2 - import uvicorn
 3 - import MySQL
 4 - SQLAlchemy
-3 - import Rest Framework
+5 - import Rest Framework
 
 [^1]: Este projeto têm fins acadêmicos (UNIVESP/SP) Polo DRP14: Céu Navegantes - PJI110 Sala 007 - Grupo 008, Orientador do PI Henrique Curi Penna.
